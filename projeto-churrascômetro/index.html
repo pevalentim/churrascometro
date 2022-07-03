@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/churrasco.png">
+    <title>Churrascômetro</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Churrascômetro</h1>
+        <form>
+        <label for="adult">Adultos:</label>
+        <input min="0" id="adult" name="adult" type="number">
+        <label for="kid">Crianças:</label>
+        <input min="0" id="kid" name="kid" type="number">
+        <label for="time">Duração(h):</label>
+        <input min="1" id="time" name="time" type="number">
+        <button id="button">Calcular</button>
+        </form>
+        <div id="result"></div>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
